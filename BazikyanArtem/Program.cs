@@ -11,7 +11,7 @@ namespace BazikyanArtem
             Console.WriteLine("ВВедите первый массив : ");
             for (int i = 0; i < 3; i++)
                 mass1[i] = int.Parse(Console.ReadLine());
-            Console.WriteLine("ВВелите второй масс : ");
+            Console.WriteLine("ВВелите вторй масс : ");
             for (int k = 0; k < 3; k++)
                 mass2[k] = int.Parse(Console.ReadLine());
             int[] most_val = new int[6];
