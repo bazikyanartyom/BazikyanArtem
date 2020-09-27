@@ -8,7 +8,7 @@ namespace BazikyanArtem
         {
             int[] mass1 = new int[3];
             int[] mass2 = new int[3];
-            Console.WriteLine("ВВедите первый масс : ");
+            Console.WriteLine("ВВедите первый массив : ");
             for (int i = 0; i < 3; i++)
                 mass1[i] = int.Parse(Console.ReadLine());
             Console.WriteLine("ВВелите второй масс : ");
